@@ -9,9 +9,13 @@ WIDTH, HEIGHT = 1500, 700
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Move the Circle")
 
+# pygame.display.set_icon(pygame.image.load("icon.png"))
+
+pygame.display.set_caption("Hellooo, game")
+
 # Colors
 WHITE = (255, 255, 255)
-BLUE = (0, 0, 255)
+BLUE = (0, 0, 123)
 
 # Circle setup
 x, y = WIDTH // 2, HEIGHT // 2
